@@ -1,0 +1,12 @@
+.main-img {
+  background: whitesmoke;
+  border-top: 1px dotted black;
+  text-align: center;
+  border-bottom: 1px dotted black;
+  margin: 2rem auto;
+  opacity: 0.2;
+}
+
+.main-image {
+  width: 15%;
+}

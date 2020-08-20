@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 1rem;
+  margin: 1rem auto;
+}
+
+input {
+  width: 20%;
+  border: 1px solid lightgrey;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.btn {
+  padding: 0 2rem;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  border: 1px dotted grey;
+  border-radius: 3px;
+  outline: lightgrey;
+  transition: all 2s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: translateX(1rem);
+}
